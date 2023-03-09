@@ -1,0 +1,188 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  .top{
+    height: 230px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top img{
+    align-self: center;
+    margin-left: 135px;
+    width: 1200px;
+    height: 230px;
+  }
+  .top #logo{
+    align-self: center;
+    margin-top: -80px;
+    height: 300px;
+    width: 300px;
+  }
+  .top #tagLine{
+    margin-top: -70px;
+    align-self: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 180px;
+  }
+  .navbar{
+    margin-top: 155px;
+   background-color: #dedcdc; 
+   border: transparent;
+   border-radius: 8px;
+   align-items: center;
+   align-self: center;
+   align-content: center;
+   justify-content: center;
+  }
+  .navbar-brand{
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 30px;
+  }
+   .dropdown-toggle{
+    margin-left: 20px;
+    width: 130px;
+    background-color: #ffffff;
+    border-color: #ff0000;
+    color: #ff0000;
+   }
+
+   
+   .dropdown-toggle:enabled{
+    background-color: #ffffff;
+    border-color: #ff0000;
+    color: #ff0000;
+   }
+   .dropdown-toggle:hover{
+    background-color: #f00;
+    color: #ffffff;
+   }
+   .dropdown-menu{
+    color:#ff0000;
+    background-color: #ffffff;
+    border-color: #ff0000;
+   }
+   .dropdown-item{
+    color: #ff0000;
+   }
+   .dropdown-item:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+   }
+   .dropdown:hover .dropdown-menu{
+    display:block;
+   }
+.btn-primary{
+  margin-left: 20px;
+  width: 180px;
+  background-color: #ffffff;
+  border-color: #ff0000;
+  color: #ff0000;
+  --bs-btn-active-bg: #ff0000;
+
+}
+.btn-primary:hover{
+  background-color: #ff0000;
+    color: #ffffff;
+    border-color: #ff0000;
+}
+.btn-primary:active{
+    background-color: #ff0000;
+      color: #ffffff;
+      border-color: #ff0000;
+  }
+  .btn-outline{
+    margin-right: 10px;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-color: #ff0000;
+    --bs-btn-border-color: #ff0000;
+    --bs-btn-hover-border-color: #ff0000;
+    --bs-btn-hover-backround-color: #ffffff;
+  }
+  .btn-outline:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-color: #ff0000;
+  }
+  .carousel{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 30px;
+    height: 400px;
+    width: 1300px;
+  }
+  .carousel img{
+    height: 400px;
+    width: 1000px;
+  }
+  .stay{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #ff0000;
+    width: 95%;
+    height: 200px;
+  }
+
+  .stay h1{
+    margin-top: 20px;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .form-select{
+    color: #000000;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 300px;
+    height: 40px;
+    
+  }
+.book{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.form-control{
+ margin-top: -23px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+h3{
+  margin-left: 25px;
+}
+#button-addon1{
+  border-radius: 5px;
+  margin-left: 28px;
+  margin-right: 2px;
+  background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ff0000;
+}
+#button-addon2{
+  border-radius: 5px;
+  margin-left: 0px;
+  margin-right: 28px;
+  background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ff0000;
+}
+.guests{
+  border: transparent;
+  border-color: #dedcdc;
+  height: 38px;
+  width: 120px;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: calc(var(--bs-border-width) * -1);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
